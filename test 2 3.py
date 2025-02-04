@@ -1,6 +1,5 @@
 import random
 
-# Клас Account для збереження інформації про акаунт
 class Account:
     def __init__(self, name, address, login, password):
         self.id = random.randint(1000, 9999)
@@ -191,6 +190,6 @@ def take_loan():
                     print("Програма завершена. БАЙ БАЙ!")
                     break
                 else:
-                    print("ХЗ ЩО ЗА КОМАНДА команда.")
-        if __name__ == "main":
-            main()
+                    print("ХЗ ЩО ЗА КОМАНДА.")
+                if __name__ == "__main__":
+                    main()
