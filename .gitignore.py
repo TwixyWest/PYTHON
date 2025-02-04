@@ -57,13 +57,11 @@
 #     def __init__(self, name, speed):
 #         self.name = name
 #         self.speed = speed
-
 import os
 #
 # file = open("text.txt", "w")
 # file.write("IT STEP")
 # file.close()
-
 # file = open("IT STEPTest.txt","w")
 # inf = ""
 # while inf !="stop":
@@ -82,12 +80,14 @@ name = int(input("n: "))
 age = int(input("n: "))
 birth = int(input("n: "))
 id = int(input("n:"))
-
 with open ("Newww.thx", "w") as IFile:
     IFile.write(f"name: {name}")
     IFile.write(f"age: {age}")
     IFile.write(f"birth: {birth}")
     IFile.write(f"id: {id}")
+
+
+
 
 with open (file,"r") as myFile:
     print(myFile.readlines())
